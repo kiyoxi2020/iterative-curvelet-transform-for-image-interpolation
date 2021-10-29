@@ -8,7 +8,7 @@ Run demo_ISTA_for_l1_my.m
 
 - L1优化问题基本定义如下：
     
-    $$P_\epsilon :\left\{ \begin{matrix}&\tilde{x}=\arg\min_x \Vert x\Vert_1~~s.t.\Vert Ax-y\Vert_2\leq \epsilon \\ &\tilde{y}=A\tilde{x} \end{matrix} \right.$$
+    $$ P_\epsilon :\left\{ \begin{matrix}&\tilde{x}=\arg\min_x \Vert x\Vert_1~~s.t.\Vert Ax-y\Vert_2\leq \epsilon \\ &\tilde{y}=A\tilde{x} \end{matrix} \right.$$
     
 
 # 迭代阈值收缩算法求解（Iterative shrinkage threshold algorithm, ISTA）
